@@ -1,7 +1,8 @@
 # jooby-realtime-heatmap
-  Realtime Heatmap , Using Jooby Framework and Service Site Event
-1. update googleMapAPIKey in application.conf to run example 
-2. default username password is rjain/rjain
-  
+  Realtime Heatmap using **Jooby Framework** and **Service Site Event**
+1. Update **googleMapAPIKey** in application.conf to run example 
+2. Default username password is rjain/rjain
+ 
+![Heatmap](https://github.com/rahulbsw/jooby-realtime-heatmap/blob/master/screenshot.gif)
   
   
