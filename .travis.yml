@@ -14,5 +14,4 @@ before_install:
  - mvn clean
 
 after_success:
-  - mvn clean install
-
+  - mvn clean install -dskipTests
