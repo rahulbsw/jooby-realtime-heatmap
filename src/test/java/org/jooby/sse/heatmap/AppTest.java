@@ -7,7 +7,7 @@ import org.junit.Test;
 
 import static io.restassured.RestAssured.get;
 import static org.hamcrest.Matchers.equalTo;
-import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
 
 /**
  * @author jooby generator
@@ -36,7 +36,7 @@ public class AppTest {
         String result = new MockRouter(new App())
                 .get("/");
 
-        assertTrue(result!=null);
+        assertNotNull(result);
     }
 
 }
