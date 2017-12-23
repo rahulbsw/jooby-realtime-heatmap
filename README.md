@@ -1,4 +1,5 @@
-[Build Status](https://travis-ci.org/rahulbsw/jooby-realtime-heatmap.svg?branch=master)
+![Master Branch](https://travis-ci.org/rahulbsw/jooby-realtime-heatmap.svg?branch=master)
+
 # jooby-realtime-heatmap
   Realtime Heatmap using **Jooby Framework** and **Service Site Event**
 1. Update **googleMapAPIKey** in application.conf to run example 
