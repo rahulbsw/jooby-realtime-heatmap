@@ -33,7 +33,7 @@ public class AppTest {
 
     @Test
     public void unitTest() throws Throwable {
-        String result = new MockRouter(new App())
+        org.jooby.View result = new MockRouter(new App())
                 .get("/");
 
         assertNotNull(result);
